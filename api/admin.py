@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Viagem, Classificacao
+
+admin.site.register(Classificacao)
+admin.site.register(Viagem)
